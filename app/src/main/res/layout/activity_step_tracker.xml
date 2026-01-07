@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bg_main"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtSteps"
+        android:text="Steps: 0"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/progressSteps"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="5000"
+        android:progress="0"
+        android:progressTint="@color/accent_primary"
+        android:backgroundTint="@color/bg_card"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:text="Calories: 0"
+        android:textColor="@color/text_secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtGoal"
+        android:text="Daily Goal: 5000 steps"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnAddSteps"
+        android:text="Add Steps"
+        android:background="@drawable/bg_button_pill"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnAddWorkout"
+        android:text="Add Workout"
+        android:background="@drawable/bg_button_pill"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- 🧩 FEATURE 1: REMIND ME -->
+    <Button
+        android:id="@+id/btnRemind"
+        android:text="Remind Me"
+        android:background="@drawable/bg_button_pill"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:text="Logout"
+        android:backgroundTint="@color/accent_action"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

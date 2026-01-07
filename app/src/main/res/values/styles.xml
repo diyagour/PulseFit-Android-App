@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PulseInput">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="android:backgroundTint">@color/divider</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+</resources>

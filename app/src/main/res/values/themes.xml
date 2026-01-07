@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Pastel Wellness Theme -->
+    <style name="Theme.PulseFit" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg_main</item>
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorSecondary">@color/accent_soft</item>
+
+        <!-- Status & nav bar -->
+        <item name="android:statusBarColor">@color/bg_main</item>
+        <item name="android:navigationBarColor">@color/bg_main</item>
+
+        <!-- Disable harsh ripples -->
+        <item name="android:colorControlHighlight">@color/accent_soft</item>
+    </style>
+
+</resources>
+
+

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6EFE8">
+
+    <!-- FULL SCREEN IMAGE (NO EMPTY SPACE) -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login_bg"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null" />
+
+    <!-- VERY LIGHT PASTEL OVERLAY (REDUCED OPACITY) -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40F6EFE8" />
+    <!-- 40 = ~25% opacity -->
+
+    <!-- CONTENT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <TextView
+            android:text="PulseFit"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#5A3E36"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="move gently, but surely. live fully."
+            android:textSize="14sp"
+            android:textColor="#7A5E55"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:hint="Email"
+            android:textColor="#4A2F28"
+            android:textColorHint="#9C857B"
+            android:backgroundTint="#D6C2B8"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#4A2F28"
+            android:textColorHint="#9C857B"
+            android:backgroundTint="#D6C2B8"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="Login"
+            android:textColor="#5A3E36"
+            android:background="@drawable/bg_button_pill"
+            android:minHeight="52dp"
+            android:elevation="0dp"
+            android:stateListAnimator="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtRegister"
+            android:text="New user? Create account"
+            android:textColor="#7A5E55"
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</FrameLayout>
