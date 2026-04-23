@@ -1,4 +1,5 @@
-PULSEFIT – Smart Wellness Tracking Application
+PULSEFIT – ANDROID WELLNESS TRACKING APP
+
 A wellness-focused Android app for tracking energy, activity, and daily reflections.
 
 What It Does:
